@@ -1,0 +1,171 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #1a1a2e;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #0d0d0e1a;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3ef3b3;
+}
+
+nav a {
+    margin : 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sign-in-btn {
+    padding: 10px 20px;
+    background-color: #3ef3b3;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background: url('background.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.banner-text {
+    text-align: left;
+}
+
+.live-gaming {
+    color: #3ef3b3;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.banner h1 {
+    font-size: 64px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.banner p {
+    font-size: 24px;
+    color: #ccc;
+}
+
+.contact-btn {
+    padding: 15px 30px;
+    background-color: #3ef3b3;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #000;
+}
+
+.banner-image {
+    position: relative;
+}
+
+.banner-iamge img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.status-badge {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    background-color: #9e2a2b;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Featured Section */
+.featured {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.category button {
+    padding: 10px 20px;
+    background-color: #333;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.featured-items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.item {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.item img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.item h3 {
+    font-size:  18px;
+    color: #fff;
+}
+
+.item p {
+    font-size: 14px;
+    color: #ccc;
+    margin: 10px 0;
+}
+
+.bid-btn {
+    padding: 10px 20px;
+    background-color: #3ef3b3;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: #000;
+    border-radius: 5px;
+}
